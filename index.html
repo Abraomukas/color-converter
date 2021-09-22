@@ -4,12 +4,22 @@
 	</head>
 	<body>
 		<h1>Color Converter</h1>
-		<button
-			type="button"
-			onclick="document.getElementById('result').innerHTML = 'Hello, world!'"
-		>
+
+		<p>
+			Please type your RGB code in the following format -
+			<strong>{value for red},{value for green},{value for blue}</strong>
+            <p>For example - <strong>70,55,120</strong></p>
+		</p>
+        
+        <input type="text" id="input">  
+
+		<button id="convertBtn" type="button">
 			CLICK ME TO CONVERT THAT RGB VALUE TO HEX
 		</button>
+
 		<p id="result"></p>
+
+
+        <script src="./scripts/index.js"></script>
 	</body>
 </html>
